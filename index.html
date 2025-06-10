@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>  
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Googlebot" content="index, archive" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Catering Services in Hamburg und Umgebung | CW" />
+    <meta property="og:description" content="Professionelle Catering-Services für Familienfeiern, Partys, Firmenevents und mehr in Hamburg und Umgebung." />
+    <meta property="og:image" content="logo-2.png" />
+    <meta property="og:image:width" content="80" />
+    <meta property="og:image:height" content="80" /> 
+    <meta property="og:type" content="website" />
+    <meta name="author" content="CW" /> 
+    <meta
+      name="description"
+      content="Seit 2016 auf den Straßen Hamburgs und Umgebung unterwegs, 
+      sind wir auf Caterings für Firmenevents und Familienfeiern spezialisiert."
+    />
+    <meta
+      name="keywords"
+      content="Currywurst Pommes Hamburg, Catering Hamburg, Catering Schleswig-Holstein, Catering Kiel, Catering Lübeck, Familienfeiern Catering Hamburg, 
+      Party Catering Hamburg, Catering Hamburg Umgebung, Firmenevents Service Hamburg, Catering Service Hamburg, Currywurst Catering Service Hamburg"
+    />
+    <link rel="icon" type="image/x-icon" href="icon.png" />
+    <title>CW</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="logo"><img src="src/logo-no-bg.png"></div>
+      <div class="nav-bar" id="nav-bar">
+        <a class="nav-icon hidden" href="javascript:void(0)" onclick="displayNav()">
+          <div class="menu-icon">
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+          </div>
+        </a>
+
+        <div id="nav-links" class="nav-links">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">Über uns</a>
+        <a class="nav-link" href="#dish">Angebot</a>
+        <a class="nav-link" href="#contact">Preise</a>
+        <a class="nav-link" href="#gal">Galerie</a> 
+      </div>
+    </div>
+ 
+    <section>
+      <div class="home" id="home">
+        <div class="container"> 
+          <img src="src/snow-2.png" class="hidden" id="mainImage" alt="Main Image" />
+        <video autoplay id="videoOne" muted>
+          <source src="src/video1.mp4" type="video/mp4" />
+        </video>  
+      </div>
+    </section> 
+
+    <section id="aboutUs">
+      <div class="aboutUs" id="about">
+        <h3>Über uns</h3>
+        <p style="text-align: center;">
+           Seit 2016 auf den Straßen Hamburgs und Umgebung unterwegs, 
+           sind wir auf Caterings für Firmenevents und Familienfeiern spezialisiert.
+        </p>
+      </div>
+    </section>
+
+    <section>
+        <div id="dish" class="dish">
+          <div class="mySlides fade" >
+            <div class="slide-content">
+              <div class="special-text"><p>Unser Angebot</p>
+              </div>
+            </div> 
+          </div>
+          <div class="mySlides fade" >
+            <div class="slide-content">
+              <div class="text-content">
+                <h1 class="header">Currywurst Pommes</h1><br> 
+                  <p style="text-align: center;">
+                    <strong>Landcurrywurst vom Schwein <br> ODER 
+                      <br> Rinder-Chilliwurst</strong>
+                      <br> mit Ruhrpottsauce und Citrus-Curry 
+                      <br><br><strong>Unsere Pommes Rustikal </strong> 
+                      <br> knusprig in Sonnenblumenöl frittiert</p>
+              </div>
+            <img src="src/currywurst.png" alt="Currywurst dish">
+            </div>
+          </div>
+          <div class="mySlides fade" >
+            <div class="slide-content">
+              <div class="text-content">
+                <h1 class="header">vegane Currywurst</h1><br> 
+                <p><strong>rein pflanzlich</strong>
+                  <br>getrennt zubereitet </p>
+              </div>
+              <img src="src/vg-no-bg.png" alt="Vegan currywurst dish">
+            </div>
+          </div>
+          <div class="mySlides fade" >
+            <div class="slide-content">
+              <div class="text-content">
+                <h1 class="header">Party-Pommes</h1><br> 
+                <p><strong>Süßkartoffeln und Pommes</strong>
+                  <br> mit heißer Käsesauce(vegan), Curryketchup,
+                  <br> Bärlauch-Mayo dazu Röst- und Frühlingszwiebeln </p>
+              </div>
+              <img src="src/cheese.png" alt="Party-Pommes dish">
+            </div>
+          </div>
+          <div class="mySlides fade" >
+            <div class="slide-content">
+              <div class="text-content">
+                <h1 class="header">Pommes Spezial</h1><br> 
+                  <p><br> mit Curryketchup, 
+                    <br>Bärlauch-Mayo dazu Röst- und Frühlingszwiebeln</p>
+              </div>
+              <img src="src/pommes-special.png">
+            </div>
+          </div>
+          <div class="mySlides fade" >
+            <div class="slide-content">
+              <div class="text-content">
+                <h1 class="header">Unsere Bratwurst</h1><br> 
+                <p><strong>Schweinswurst</strong>
+                  <br>oder <br> <strong>Rinderwurst</strong> 
+                  <br>Frisch produziert vom Fleischer in Schleswig-Holstein, 
+                  <br>regionaler Fleischbezug garantiert kurze Transportwege.</p>
+              </div>
+              <img src="src/ss-main.png" alt="Sausage product">
+            </div>
+          </div> 
+          <button class="prev" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="next" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+    </section>
+      
+    <section>
+      <div class="price" id="contact"> 
+        <div class="form-container">
+          <form action="contactform.php" method="post" id="contact-form">
+            <h3>Angebot einholen</h3>
+            <label for="location">Wo?</label>
+            <input type="text" name="location" placeholder="Standort" required/>
+            <label for="postal"> </label>
+            <input type="text" name="postal" placeholder="Postleitzahl" required/>
+            <br>  
+            <label for="date">Wann?</label>
+            <input id="date" type="date" name="date" placeholder="" required/>
+            <br> <br>
+            <label for="num">Gästeanzahl</label>
+            <input type="text" name="num"  placeholder="" required/>
+            <br>
+            <label for="subject">Betreff</label>
+            <input type="text" name="subject" placeholder="Betreff" required/>
+            <br>
+            <label for="message">Nachricht</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Nachricht..."
+              style="height: 200px"
+              required
+            ></textarea>
+            <label for="person">Name</label>
+            <input  type="text" name="person" pattern="[A-Za-zÄäÖöÜüß\s\-]+" placeholder="Name" required/>
+            <br>
+            <label for="sender">E-Mail</label>
+            <input type="email" name="sender" placeholder="E-Mail" required/>
+            <input  type="email" name="reSender" id="reSender" placeholder="E-Mail erneut eingeben" required/>
+            <label for="reSender"></label>
+            <br><label for="tel">Telefon</label>
+            <input type="tel" name="tel" placeholder="Tel.-Nr." />
+            <input type="submit" name="submitBtn" value="Absenden" id="submitBtn" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="gal" id="gal">
+        <h3>Galerie</h3>   
+        <div class="img-display" id="front-img">
+          <img src="src/snow-2.png" alt="Shop in winter">
+          <img src="src/dish-1.png" alt="Main menu currywurst">
+          <img src="src/holding-2.png" alt="Main menu currywurst"> 
+        </div> 
+          <a title="Folge uns für mehr auf Instagram" href="https://www.instagram.com/">
+            <svg id="insta-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"></svg></a>
+      </div>
+    </section>
+ 
+    <div id="nameModal" class="modal hidden">
+      <button class="close-card">&times;</button>
+      <div class="img-box ">
+        <img src="src/cw1.jpg" alt="Currywurst truck side way">  
+        <img src="src/cw2.jpg" alt="Currywurst truck front way">  
+        <img src="src/cw3.jpg" alt="Currywurst truck front way">  
+        <img src="src/dish-1.png" alt="Currywurst with Pommes"> 
+        <img src="src/cw4.jpg" alt="A massive dish of Currywurst from catering">  
+        <img src="src/pm-special2.jpg" alt="Pommes Special menu"> 
+        <img src="src/ss-mayo.JPG" alt="Currywurst with Pommes"> 
+        <img src="src/cheese.png" alt="Party-Pommes dish"> 
+        <img src="src/vegan2.jpg" alt="Vegan Currywurst with sweet potato"> 
+        <img src="src/holding-2.png" alt="Currywurst dish in front of the truck"> 
+        <img src="src/pork-ss.png" alt="Pork Sausage">
+        <img src="src/ss-ongrill.png" alt="Sausage product on grill"> 
+        <img src="src/star-3.jpg" alt="Winter decoration from winterpride">
+        <img src="src/welcome.png" alt="Shop on winterpride"> 
+        <img src="src/snow-2.png" alt="Shop on winterpride" > 
+        <img src="src/snowman.png" alt="Shop on winterpride">  
+        <img src="src/cw-2023.jpg" alt="Shop on winterpride">  
+        <img src="src/line-cw.jpg" alt="Front shop at night">  
+        <img src="src/cw5.JPG" alt="Front shop"> 
+        <img src="src/cw6.JPG" alt="Shop on winterpride">   
+        <img src="src/sunshine.jpg" alt="Truck on catering">  
+        <img src="src/cw7.jpg" alt="Sausage on grill"> 
+        <img src="src/cw8.jpg" alt="Front shop"> 
+        <img src="src/cw9.jpg" alt="Currywurst dish">
+        <img src="src/cw9.png" alt="Truck on catering">  
+        <img src="src/cw10.png" alt="Truck on catering"> 
+      </div>
+    </div> 
+
+    <section id="location">
+      <div class="aboutUs" id="about">
+        <h3>Standort</h3>
+          <p style="text-align: center;">
+          Hamburg und Umgebung
+          </p>
+      </div>
+    </section>
+
+    <section id="rate">
+      <div class="rate">  
+        <div class="star">★ ★ ★ ★ ★</div>
+          <a href="">Bewerten Sie uns bei Google</a>
+        </div>
+    </section>
+
+    <div class="overlay hidden"></div> 
+
+    <script src="https://kit.fontawesome.com/17b5e7c4af.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+    const x = document.getElementById("nav-links");
+    function displayNav() {
+      if (x.style.display === "block") {
+
+        x.style.display = "none"
+
+      } else x.style.display ="block";
+    } 
+    </script>
+  <footer>© 2024 CW All Rights Reserved.</footer>
+</body>
+</html>
