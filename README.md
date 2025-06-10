@@ -28,7 +28,7 @@ This project features a simple, interactive web page including:
   Custom validations include matching email confirmation, date checks, and format validations.
 
 - **Modal Window:**  
-  The main image triggers a modal with the contact form, which can be closed via button or Escape key.
+  The main image triggers a modal with the photo gallery, which can be closed via button or Escape key.
 
 - **Navigation:**  
   Smooth scrolling behaviour on navigation link clicks for a seamless user experience.
@@ -59,15 +59,6 @@ This project features a simple, interactive web page including:
 - **Validate.js** (client-side form validation)
 - **FontAwesome** (icon library)
 - External APIs: [ipapi.co](https://ipapi.co/) for IP geolocation
-
----
-
-## Usage
-
-1. Clone the repository or download the source files.
-2. Open `index.html` in your browser.
-3. Click the main image to open the contact form modal.
-4. Complete the form and submit; validation errors will appear if inputs are invalid.
 
 ---
 
